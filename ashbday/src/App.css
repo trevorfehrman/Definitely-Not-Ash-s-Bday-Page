@@ -1,0 +1,36 @@
+.App {
+	text-align: center;
+	display: flex;
+	background-image: url("./images/field.jpg");
+	background-repeat: none;
+	background-size: cover;
+	height: 100vh;
+	font-family: "Raleway";
+}
+
+.main {
+	display: flex;
+	align-items: start;
+}
+
+.pokebabes {
+	display: flex;
+	align-items: start;
+	margin-top: 400px;
+}
+
+.liz {
+	margin-top: -300px;
+}
+
+.lauren {
+	padding-left: 40px;
+}
+
+.birthday {
+	position: absolute;
+	top: 200px;
+	left: 700px;
+	font-size: 50px;
+	color: #363e49;
+}
