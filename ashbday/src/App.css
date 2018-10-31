@@ -5,12 +5,22 @@
 	background-repeat: none;
 	background-size: cover;
 	height: 100vh;
-	font-family: "Raleway";
+	font-family: "Lobster";
+	width: 2000px;
 }
 
 .main {
 	display: flex;
 	align-items: start;
+}
+
+.ashrevor {
+	margin-top: 70px;
+	transition: transform 0.2s;
+}
+
+.ashrevor:hover {
+	transform: skewX(-30deg);
 }
 
 .pokebabes {
@@ -21,16 +31,99 @@
 
 .liz {
 	margin-top: -300px;
+	transition: transform 0.2s;
+}
+
+.liz:hover {
+	transform: scale(-0.75);
 }
 
 .lauren {
 	padding-left: 40px;
+	transition: transform 0.2s;
+}
+
+.lauren:hover {
+	transform: scale(1.5);
+}
+
+.rotate1 {
+	position: absolute;
+	left: 45%;
+	top: 35%;
+	transition: transform 1s;
+}
+
+.rotate1:hover {
+	transform: rotate(1000deg);
+}
+
+.rotate2 {
+	position: absolute;
+	left: 60%;
+	top: 10%;
+	transition: transform 1s;
+}
+
+.rotate2:hover {
+	transform: rotate(1000deg);
 }
 
 .birthday {
 	position: absolute;
 	top: 200px;
 	left: 700px;
-	font-size: 50px;
-	color: #363e49;
+	font-size: 90px;
+	background: -webkit-linear-gradient(rgb(245, 70, 1), rgb(172, 70, 133));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: transform 1s;
+}
+
+.birthday:hover {
+	transform: scaleY(6);
+	transform: rotate(10000deg);
+}
+
+.ghosts {
+	width: 100%;
+}
+
+.ghost-1 {
+	position: absolute;
+	color: blue;
+	font-size: 30px;
+	top: 50%;
+}
+
+.ghost-2 {
+	position: absolute;
+	color: red;
+	font-size: 40px;
+	top: 35%;
+	left: 15%;
+}
+
+.ghost-3 {
+	position: absolute;
+	color: pink;
+	font-size: 20px;
+	top: 40%;
+	left: 60%;
+}
+
+.ghost-4 {
+	position: absolute;
+	color: green;
+	font-size: 70px;
+	top: 15%;
+	left: 75%;
+}
+
+.ghost-5 {
+	position: absolute;
+	color: orange;
+	font-size: 40px;
+	top: 49%;
+	left: 89%;
 }

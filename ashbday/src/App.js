@@ -15,7 +15,14 @@ class App extends Component {
 			<div className="App">
 				<div className="main">
 					<h1 className="birthday">Happy Birthday Ash!</h1>
-					<img src={ashy} />
+					<div className="ghosts">
+						<i className="fas fa-ghost fa-spin ghost-1" />
+						<i className="fas fa-ghost fa-spin ghost-2" />
+						<i className="fas fa-ghost fa-spin ghost-3" />
+						<i className="fas fa-ghost fa-spin ghost-4" />
+						<i className="fas fa-ghost fa-spin ghost-5" />
+					</div>
+					<img className="ashrevor" src={ashy} />
 					<Pokeball />
 
 					<div className="pokebabes">
